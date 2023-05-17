@@ -4,3 +4,46 @@
 - The description list terms must be bold and the font size set to 1.15 times the root element font size
 - The description list data must be on the following line from the term and without any indentation
  */
+
+body {
+    background-color: #E5F4E3;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #5DA9E9;
+}
+
+h1 {
+    padding: 0.5rem;
+}
+
+
+img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    float: left;
+    margin: 0 1rem 1rem 0;
+ }
+
+.bio {
+    padding-bottom: 4rem;
+}
+
+ dl {
+    font-weight: bold;
+    font-size: 1.15rem;
+    background-color: #5DA9E9;
+    padding: 0.5rem;
+ }
+
+ dd {
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 0.5rem;
+ }
